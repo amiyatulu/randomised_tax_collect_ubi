@@ -35,7 +35,7 @@ def tax_collection(dictvalues, randomlist):
         dictvalues[li] = left_value
     return (total_tax, dictvalues)
 
-# Distribute tax equally to peoples
+# Distribute tax equally to people
 def distribute_tax(total_tax, num, dictvalues):
     individual_income = total_tax/num
     for x in range(0, num):
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     print(dictvalues)
 
 # Example values
-# Intial
+# Initial
 # {0: 145.73066800489423, 1: 43.00866767658919, 2: 283.46082318329866, 3: 123.31971833921949, 4: 143.80255958101523, 5: 7.634156152591173, 6: 62.95130099146863, 7: 65.21259591708083, 8: 8.11855160833787, 9: 116.76095854550476}
 # Final
 # {0: 96.00241898297, 1: 104.36193050518715, 2: 88.54176705013242, 3: 86.5786303910261, 4: 98.26584136732163, 5: 114.61915251476192, 6: 104.62382043478628, 7: 121.90985100585453, 8: 94.15798957991514, 9: 90.93859816804566}
